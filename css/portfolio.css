@@ -1,0 +1,105 @@
+.portfolio {
+    background-color: white;
+    list-style: none;
+}
+.portfolio-title {
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    line-height: 1.1;
+    color: #2E2F42;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.portfolio-title3 {
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    line-height: 1.2;
+    color: #2E2F42;
+    margin-bottom: 8px;
+}
+.portfolio-desc {
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+    color: #434455;
+}
+.portfolio {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 10px;
+    padding-block: 120px;
+    padding-inline: 0px;
+}
+.container-portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 72px;
+    width: 100%;
+    max-width: 1158px;;
+}
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 48px 24px ;
+    }
+.portfolio-items {
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 0px;
+    width: 360px;
+    overflow: hidden;
+}
+.portfolio-items > img {
+    display: block;
+}
+.portfolio-text {
+    background-color: #FFFFFF;
+    position: relative;
+    padding: 32px 16px;
+    border: 1px solid #8f98ef;
+    border-top: none;
+    width: 100%;
+    z-index: 5;
+    border-bottom: 1px solid #E7E9FC;
+    border-left: 1px solid #E7E9FC;
+    border-right: 1px solid #E7E9FC;
+}
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%);
+    background-color: #4D5AE5;
+    transition: 250ms ease-in-out;
+}
+.portfoliocard {
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 0px;
+    width: 360px;
+    overflow: hidden;
+}
+.overlay >p {
+    color: #F4F4FD;
+}
+.portfolio-items:hover .overlay {
+    transform: translateY(0);
+}
