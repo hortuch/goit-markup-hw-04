@@ -1,7 +1,6 @@
 .team {
     background-color: #F4F4FD;
-    list-style: none;
-    width: 100%;
+list-style: none;
 }
 
 .team-title {
@@ -50,6 +49,7 @@
     padding-block: 0px;
     padding-inline: 15px;
     width: 100%;
+    max-width: 1158px;
 }
 .members {
     display: flex;
@@ -68,13 +68,10 @@
     border-radius: 0 0 4px 4px;
     width: 264px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-    background: var(--white);
+    background: white;
 }
 .team-name {
   margin-bottom: 8px;
-}
-.team-spec {
-    margin-bottom: 8px;
 }
 .team-pic {
   display: block;
@@ -82,32 +79,44 @@
   height: auto;
 }
 .team-specif {
-    display: block;
-    padding: 32px 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 32px;
+    padding-top: 32px;
     text-align: center;
 }
-.socials {
+.team-social-list {
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    flex-direction: row;
     gap: 24px;
+    width: 100%;
+    margin-top: 8px;
 }
-.team-soc-icons {
+.team-border-icon{
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 50%;
     background-color: #4D5AE5;
     width: 40px;
     height: 40px;
+    border-radius: 50%;
+    transition: 250ms ease-in-out;
 }
-.team-soc-icons:hover {
+.team-border-icon:hover {
     background-color: #404BBF;
-    transition: 150ms ease-in-out;
 }
-.soc-med-team {
+
+.team-soc-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 16px;
+    height: 16px;
     color: #F4F4FD;
+    transition: 250ms ease-in-out;
 }
-.soc-med-team:hover {
-    transform: translateY(-2px);
+.team-soc-icon:hover {
+    transform: translateY(2px);
 }

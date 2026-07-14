@@ -39,13 +39,15 @@
     flex-direction: column;
     width: 264px;
 }
-.features-decoration {
+.features-image {
     display: flex;
-    background: #F4F4FD;
-    border: 1px solid #8E8F99;
-    border-radius: 4px;
-    width: 264px;
-    height: 112px;
     align-items: center;
     justify-content: center;
+    background-color: #F4F4FD;
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
+    gap: 0;
+    width: 264px;
+    height: 112px;
+    margin-bottom: 8px;
 }
