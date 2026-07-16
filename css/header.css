@@ -156,13 +156,18 @@ line-height: 1.3;
 .nav-list-current .navig-points {
     color: #404bbf;
 }
+.nav-list-current {
+    display: flex;
+    position: relative;
+}
 .nav-list-current::after {
     content: "";
   position: absolute;
   left: 0;
-  bottom: 0px;
+  bottom: -1px;
   width: 100%;
   height: 4px;
-  border-radius: 2px;
   background-color: #404bbf;
+  border-radius: 2px;
 }
+

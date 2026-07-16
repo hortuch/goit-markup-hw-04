@@ -79,7 +79,8 @@
 .footer-icons,
 .footer-icons-tw,
 .footer-icons-fb {
-    color: #ffff;
+    color: #f4f4fd;
+    fill: #f4f4fd;
 }
 .footer-window:hover,
 .footer-window:focus {
