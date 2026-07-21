@@ -159,7 +159,8 @@ line-height: 1.3;
 .nav-list-current {
     display: flex;
     position: relative;
-    padding-top: 24px;
+    padding-top: 16px;
+    padding-bottom: 16px;
     border-radius: 2px;
 }
 .navig-points-current::after {
