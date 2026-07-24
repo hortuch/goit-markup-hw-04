@@ -1,0 +1,82 @@
+.team {
+    background-color: #F4F4FD;
+list-style: none;
+}
+
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    line-height: 1.11;
+    color: #2E2F42;
+}
+.team-name {
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 0.02em;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #2E2F42;
+}
+.team-spec  {
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+    font-size: 16px;
+    color: #434455;
+    margin: 0;
+}
+.card {
+    background-color: white;
+}
+.team {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0px;
+    padding-block: 120px;
+    padding-inline: 0px;
+}
+.container-team {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 72px;
+    padding-block: 0px;
+    padding-inline: 15px;
+    width: 100%;
+    max-width: 1158px;
+}
+.members {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 24px;
+    max-width: 1158px;
+}
+.card {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 0px;
+    border-radius: 0 0 4px 4px;
+    width: 264px;
+}
+.team-name {
+  margin-bottom: 8px;
+}
+.team-pic {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.team-specif {
+    padding: 32px 16px;
+    text-align: center;
+}

@@ -1,0 +1,19 @@
+.features {
+    list-style: none;
+}
+.features-title3 {
+    font-weight: 500;
+    text-align: left;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.features-p {
+    font-weight: 400;
+    text-align: left;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
